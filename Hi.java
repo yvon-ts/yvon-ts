@@ -18,8 +18,10 @@ public class Hi extends HttpServlet {
 		out.println("<HTML>");
 		out.println("<HEAD><TITLE>Hello World</TITLE></HEAD>");
 		out.println("<BODY>");
+
 		out.println("<BIG>Hello World , 世界你好 !</BIG><br>");
-		out.println("<BIG>Conflict</BIG><br>");
+		out.println("<BIG>Conflict fixed</BIG><br>");
+
 		out.println("</BODY></HTML>");
 	}
 }
